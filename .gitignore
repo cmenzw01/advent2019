@@ -1,0 +1,36 @@
+*.ear
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea
+*.iml
+.DS_Store
+target/
+*.swp
+
+# Code Generated Avro Files
+datacommon/src/main/java/com/ahalogy/ada/datacommon/generated/
+cms-common/src/main/java/com/ahalogy/ada/cms/generated/
+
+# Local Properties File
+common/src/main/resources/a5y.properties.local
+ 
+#Local text files
+local*.txt
+
+# Pytest cache
+.pytest_cache/
+
+# Logging settings
+common/src/main/resources/log4j.xml
+common/src/main/resources/log4j2.xml
